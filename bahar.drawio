@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T09:50:41.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="P56qhCzpDvSuM6IQGxhC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T06:43:09.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="8dTGFQKBUo4OeWKGa3l8" version="20.6.0" type="github" pages="2">
   <diagram id="37yV-ZgL1QMKRByAh35n" name="Sayfa -2">
-    <mxGraphModel dx="871" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -899,6 +899,14 @@
             <mxPoint x="1411.5" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jHKchpMJqxFVrtI7v164" name="Sayfa -3">
+    <mxGraphModel dx="821" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
