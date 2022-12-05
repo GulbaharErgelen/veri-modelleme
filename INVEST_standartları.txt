@@ -1,0 +1,77 @@
+
+
+Çevik yazılım projeleri için INVEST model, Bill Wake tarafından kaliteli bir ürün iş listesinin (Product Backlog) olması gereken özelliklerinin bir hatırlatıcısı olarak oluşturulmuştur.
+ INVEST model için ürün listesi maddelerini kullanıcı hikayeleri şeklinde yazmak iyi bir pratiktir ama INVEST için olması zorunlu bir durum değildir. 
+ INVEST ile hazırlanmış bu kullanıcı hikayeleri bir Scrum veya Kanban ürün iş listesinde hatta XP projelerinde de kullanılabilir.
+
+INVEST model 6 önemli özelliğe dikkat çeker. INVEST adını da bu özelliklerin baş harflerinden almıştır. 
+INVEST bize etkili bir kullanıcı hikayesinin sahip olması gereken 6 özelliği hatırlatır.
+
+Independent — Bağımsız:
+
+Kullanıcı hikayeleriyle çalışmanın kolay yollarından biri, o hikayenin bağımsız olmasıdır. Hikayeler arasındaki bağımlılıklar önceliklendirme ve planlama problemlerine yol açar.
+Örneğin müşterinin yüksek öncelik verdiği bir hikaye düşük öncelik verilmiş bir hikayeye bağımlı olursa, hangisini önce yapılacağına karar verilmesi oldukça güç olacaktır.
+Bağımlı kullanıcı hikayelerini bağımsız hale getirmenin birkaç yolu var.
+Bunlardan biri bağımlı olan hikayeleri birleştirmek.Eğer bağımlı hikayeleri birleştirmek istemiyorsanız da bu sefer farklı bakış açılarıyla yeni hikayeler yazmak gerekir.
+
+Negotiable veya Negotiated — Tartışılabilir :
+
+Kullanıcı hikayeleri, detayları ve kabul kriterleri müşteri ve geliştirme ekipleri arasındaki bir görüşmede tartışılacak ve karar verilecek olan kısa tanımlardır. 
+Bu yüzden bir kullanıcı hikayesi üzerinde tartışılabilir olmalıdır. Hikayeler yazılı sözleşmeler gibi kati ve değişmez değildir.
+Kullanıcı hikayeleri, tamamen ayrıntılı olmasında ziyade, üzerinde tartışmak için hatırlatıcı olduklarından tüm detayı içermemelidir.
+Ancak hikaye yazıldığı zaman önemli detaylar biliniyorsa bu bilgiler hikayeye ek açıklama olarak yazılabilir.
+Özetle, kullanıcı hikayeleri geliştirilecek ürün parçası için bize yol gösteren kısa bir bilgilerdir. 
+Üzerinde tartıştıkça (hatta belki geliştirme sırasında) detaylandırılabilir. Değişmez olmamalı, aksine değişme adapte olmalıdır.
+
+Valuable — Değerli :
+
+“Kullanıcı hikayeleri değer üretmeli” demek tek başına yeterli olmuyor maalesef. 
+Çünkü değer dediğimiz şey ürünü geliştiren ile ürünü kullanan kişi arasında farklılık gösterebiliyor. 
+Teknik olarak değerli görünen bir şey, son kullanıcı için hiçbir değer üretmiyor olabilir. 
+Bu yüzden kullanıcı hikayeleri bir değer üretmeli derken, o ürünü kullanacak son kullanıcılar için bir değer üretmeli olarak algılamak daha doğru olacaktır.
+Bir kullanıcı hikayesinin müşteri ve kullanıcılar için değerli olmasını sağlamanın en iyi yolu ise hikayeyi onların yazmasını sağlamaktır.
+
+Estimable — Tahminlenebilir :
+
+Geliştirme ekibinin bir hikayenin büyüklüğünü veya geliştirmek için harcanacak süreyi tahmin edebilmeleri oldukça önemlidir. 
+Bu bilgiye göre planlamalar yapılmaktadır. Bu yüzden de bir kullanıcı hikayesinin olması gereken özelliklerden biri tahmin edilebilir olmasıdır.
+Bir hikayenin tahmin edilemez olmasının 3 genel nedeni vardır:
+
+Geliştiricilerin domain bilgisine sahip olmaması
+Geliştiricilerin teknik olarak yetersiz olması
+Hikayenin çok büyük olması
+
+Eğer ki geliştirici ekip, hikayeyi anlamıyor veya yeterli domain bilgisine sahip değilse, hikayeyi yazan müşteri/kullanıcı ile detaylandırabilmek için üzerinde konuşmalı ve tartışmalıdır.
+Tahmin edilebilir olması için geliştirici ekibin hikayeyi genel olarak anlaması gerekir. ( En ince detaylarına girmeğe gerek yoktur)
+Geliştiriciler hikayeyi geliştirmek için gerekli teknik bilgiye sahip değilse “Spike” dediğimiz öncü çalışma aktivitesini yapmak gerekir. 
+Bu teknik yetersizliği ortadan kaldıracak çalışmalar, eğitimler vs ayrı bir hikaye olarak değerlendirilebilir. 
+Böylece geliştirici ekip, asıl hikayeyi tahmin edebilecek kadar teknik yeterliliği arttırmış olur.
+
+Spike
+Kapsam belirleme, analiz, araştırma, gereksinimler, toplantı, gelişim süreci gibi aktiviteler için kullanılır. 
+Spike olarak işaretlenmiş işlerin size’ları çoğu zaman düşün hatta bazen 0 (Sıfır) bile olabilir.
+Çünkü bir iterasyonda zaten yapılması gereken işler olduğu için bunlar değerli bir çıktı sağlayacak çalışmalar değildir. 
+Sadece o çıktıya giden yolda bizi geliştirecek işlerdir.
+
+Small — Küçük :
+
+Bir kullanıcı hikayesinin büyüklüğü, planlama ve tahminleme yapabilmek için önemli bir parametredir. 
+Bu yüzden bir kullanıcı hikayesi, bir iterasyon içinde tamamlanabilecek kadar küçük olmalıdır.
+Ürün iş listesinde büyük hikayelere “Epic” denir. 
+Planlama ve tahminlemelerin Epic’ler üzerinden yapmak doğru sonuçlar vermeyebilir. Bu yüzden Epic’leri kullanıcı hikayelerine bölmek gerekir. 
+Sonrasında bu küçük hikayeler üzerinden tahminleme ve planlama yapmak daha doğru olacaktır.
+
+Testable — Test edilebilir :
+
+Bir kullanıcı hikayesi test edilebilir şekilde yazılmalıdır. 
+Bunu birçok sebebi var tabii ki. İlk akla gelen nedenlerden biri geliştiricinin neyi geliştireceğine ve hangi kurallara göre geliştirmesine yol göstermesidir. 
+Ayrıca, testlerin başarılı geçmesi, hikayenin başarıyla geliştirildiğinin kanıtıdır aynı zamanda.
+
+Bir hikayenin test edilebilir özelliğine en büyük katkıyı o hikayenin Kabul Kriterleri (Acceptance Criteria) sağlar. 
+Kabul kriterleri, bir hikayenin geliştirilmesi sonucu olması istenenler ve beklenenler listesidir. 
+Bir geliştirme eğer kabul kriterlerini sağlamıyorsa testlerden de geçmediğini ve dolayısı ile kullanıcı hikayesinin başarılı yazılmadığını gösterir. 
+Kısaca kullanıcı hikayelerinde kabul kriterleri, test aktivitelerinde doğrudan etkilidir.
+
+Herkes bir hikayenin tamamlanmasının nasıl doğrulanacağını anlamalı ve kabul etmelidir. 
+Bunu yapmanın bir diğer yolu da Bitti Tanımı (Definition of DONE) oluşturmaktır. 
+Bu tanım bir hikayenin hangi aşamalardan geçmesi gerektiğini belirtir. 
